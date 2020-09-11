@@ -41,14 +41,15 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-148327680-2"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
+      window['ga-disable-UA-148327680-2'] = true; // Disable for now
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'UA-148327680-2');
     </script>
   </head>
   <body>
-    <div class="frame">
-        <climate-clock flatten></climate-clock>
+    <div id="app">
+        <!-- <climate-clock-portrait></climate-clock-portrait> -->
         <!-- https://github.com/beautifultrouble/climate-clock-widget -->
     </div>
   </body>

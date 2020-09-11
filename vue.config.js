@@ -1,4 +1,24 @@
 module.exports = {
+  css: {
+    // Don't produce a separate css file
+    extract: false,
+    loaderOptions: {
+      css: {
+      },
+      postcss: {
+        postcssOptions: {
+          ident: 'postcss',
+          plugins: [
+              require('./src/remove-theme-rules')
+            ]
+          }
+      },
+      sass: {
+        additionalData: '$NODE_ENV: ' + process.env.NODE_ENV + ';',
+      }
+    }
+  },
+
   chainWebpack: config => {
     // Don't split vendor and app js
     config.optimization.splitChunks(false)
@@ -14,15 +34,7 @@ module.exports = {
       // Don't place chunks in a js folder
       chunkFilename: '[name].js?id=[hash]',
       filename: 'widget-v2.js?id=[hash]'
-    }
-  },
-  css: {
-    // Don't produce a separate css file
-    extract: false,
-    loaderOptions: {
-      // Expose NODE_ENV to scss
-      sass: {data: '$NODE_ENV: ' + process.env.NODE_ENV + ';'}
-    }
+    },
   },
   // Don't produce a sourcemap
   productionSourceMap: false,
