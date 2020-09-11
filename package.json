@@ -17,6 +17,7 @@
     "countdown": "^2.6.0",
     "document-register-element": "^1.14.3",
     "lodash.debounce": "^4.0.8",
+    "register-service-worker": "^1.7.1",
     "vue": "^2.6.10",
     "vue-browser-detect-plugin": "^0.1.5",
     "vue-chartjs": "^3.5.0",
@@ -27,6 +28,7 @@
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.11.0",
     "@vue/cli-plugin-eslint": "^3.11.0",
+    "@vue/cli-plugin-pwa": "^4.5.6",
     "@vue/cli-service": "^3.11.0",
     "babel-eslint": "^10.0.1",
     "deepmerge": "^4.2.2",
@@ -43,6 +45,11 @@
     "sass-loader": "^10.0.2",
     "vue-custom-element": "^3.2.8",
     "vue-template-compiler": "^2.6.10"
+  },
+  "babel": {
+    "presets": [
+      "@vue/app"
+    ]
   },
   "eslintConfig": {
     "root": true,
@@ -62,11 +69,6 @@
     "plugins": {
       "autoprefixer": {}
     }
-  },
-  "babel": {
-    "presets": [
-      "@vue/app"
-    ]
   },
   "browserslist": [
     "> 1%",

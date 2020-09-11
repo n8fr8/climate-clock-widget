@@ -11,6 +11,7 @@ import axios from 'axios'
 
 import vuetify from '@/plugins/vuetify' // path to vuetify export
 import router from './router'
+import './registerServiceWorker'
 
 Vue.prototype.$http = axios
 Vue.config.ignoredElements = [/^ccw-/]
