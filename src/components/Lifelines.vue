@@ -35,8 +35,8 @@
 
       <v-row no-gutters no-wrap>
         <v-col>
-          <div class="text-center" style="color:white !important">
-            <span>Clock image goes here</span>
+          <div class="text-center">
+                <img src="./clockloop.gif"/> 
           </div>
         </v-col>
       </v-row>
@@ -323,13 +323,6 @@ export default {
     background-color: $color;
     padding: .25rem;
   }
-}
-@if ($NODE_ENV == 'development') {
- [size="xs"] { @include debug(pink, 'xs'); }
- [size="sm"] { @include debug(red, 'sm'); }
- [size="md"] { @include debug(orange, 'md'); }
- [size="lg"] { @include debug(yellow, 'lg'); }
- [size="xl"] { @include debug(green, 'xl'); }
 }
 
 @import "cleanslate";

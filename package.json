@@ -18,12 +18,14 @@
     "document-register-element": "^1.14.3",
     "lodash.debounce": "^4.0.8",
     "register-service-worker": "^1.7.1",
+    "schema-utils": "^2.7.1",
     "vue": "^2.6.10",
     "vue-browser-detect-plugin": "^0.1.5",
     "vue-chartjs": "^3.5.0",
     "vue-router": "^3.4.3",
     "vue-svg-inline-loader": "^1.5.0",
-    "vuetify": "^2.3.10"
+    "vuetify": "^2.3.10",
+    "webpack": "4.36.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.11.0",
@@ -36,13 +38,13 @@
     "eslint-plugin-vue": "^5.0.0",
     "fibers": "^5.0.0",
     "node-sass": "^4.9.0",
-    "postcss": "^7.0.32",
-    "postcss-loader": "^4.0.1",
+    "postcss": "7.0.32",
+    "postcss-loader": "4.0.1",
     "postcss-remove-rules": "^1.0.0",
     "postcss-safe-important": "^1.1.0",
     "remove": "^0.1.5",
-    "sass": "^1.26.10",
-    "sass-loader": "^10.0.2",
+    "sass": "1.26.10",
+    "sass-loader": "7.3.1",
     "vue-custom-element": "^3.2.8",
     "vue-template-compiler": "^2.6.10"
   },

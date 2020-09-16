@@ -315,13 +315,6 @@ export default {
     padding: .25rem;
   }
 }
-@if $NODE_ENV == 'development' {
-  [size="xs"] { @include debug(pink, 'xs'); }
-  [size="sm"] { @include debug(red, 'sm'); }
-  [size="md"] { @include debug(orange, 'md'); }
-  [size="lg"] { @include debug(yellow, 'lg'); }
-  [size="xl"] { @include debug(green, 'xl'); }
-}
 
 @import 'cleanslate';
 @import 'matthewha';
