@@ -1,6 +1,5 @@
 <template>
   <div class="widgetRoot">
-    <v-btn outlined>Act in time</v-btn>
     <div class="black mt-4">
       <div class="title">THIS WEEK's MISSION</div>
       <span class="message">

@@ -16,6 +16,11 @@ export default new Router({
       component: () => import('./components/Flatten.vue'),
     },
     {
+      path: '/deadlines',
+      name: 'deadlines',
+      component: () => import('./components/Deadlines.vue'),
+    },
+    {
       path: '/transition',
       name: 'transition',
       component: () => import('./components/Transition.vue'),

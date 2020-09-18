@@ -9,6 +9,7 @@
     </v-main>
     <v-container id="bottomNav">
       <v-row>
+<!--
         <v-col cols="6" class="text-right">
           <v-menu v-model="lifelinesMenu" top offset-y close-on-click close-on-content-click>
             <template v-slot:activator="{ on, attrs }">
@@ -25,8 +26,18 @@
             </v-list>
           </v-menu>
         </v-col>
-        <v-col cols="6" class="text-left">
-          <v-btn outlined router to="/actintime">Act in time</v-btn>
+-->
+        <v-col cols="2" class="text-left">
+          <v-btn outlined router to="/"><img src="img/icons/android-32x32.png"></v-btn>
+        </v-col>
+        <v-col cols="3">
+          <v-btn outlined router to="/flatten">Flatten</v-btn>
+        </v-col>
+        <v-col cols="3">
+          <v-btn outlined router to="/deadlines">Deadline</v-btn>
+        </v-col>
+        <v-col cols="3">
+          <v-btn outlined router to="/actintime">Action</v-btn>
         </v-col>
       </v-row>
     </v-container>
@@ -64,6 +75,10 @@ export default {
 $background: #1a1a1a;
 $foreground: #008040;
 $mainPadding: 10px;
+
+body {
+  background-color: $background;
+}
 
 #main {
   background-color: $background;
