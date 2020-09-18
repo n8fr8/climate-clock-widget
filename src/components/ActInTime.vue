@@ -6,7 +6,7 @@
       <span class="message">
 TELL GOV NEWSOM TO STOP FUELING CALIFORNIA WILDFIRES BY ENDING NEW OIL & GAS PERMITS
         <br />
-        <span class="link"><a href="https://350.org/california-twitterstorm/">Take Action</a></span>
+        <span class="link"><a href="https://350.org/california-twitterstorm/" class="link">Take Action</a></span>
       </span>
     </div>
   </div>
