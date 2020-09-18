@@ -1,5 +1,5 @@
 module.exports = {
-	      publicPath: '/private/climateclock/',
+	      publicPath: '/mobile/',
   css: {
     // Don't produce a separate css file
     extract: false,
