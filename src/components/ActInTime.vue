@@ -2,11 +2,11 @@
   <div class="widgetRoot">
     <v-btn outlined>Act in time</v-btn>
     <div class="black mt-4">
-      <div class="title">Today's mission:</div>
+      <div class="title">THIS WEEK's MISSION</div>
       <span class="message">
-        Send your senator a message
-        <br />Click
-        <span class="link">here</span>
+TELL GOV NEWSOM TO STOP FUELING CALIFORNIA WILDFIRES BY ENDING NEW OIL & GAS PERMITS
+        <br />
+        <span class="link"><a href="https://350.org/california-twitterstorm/">Take Action</a></span>
       </span>
     </div>
   </div>
