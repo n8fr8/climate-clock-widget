@@ -27,17 +27,17 @@
           </v-menu>
         </v-col>
 -->
-        <v-col cols="2" class="text-left">
-          <v-btn outlined router to="/"><img src="img/icons/android-32x32.png"></v-btn>
+        <v-col cols="2">
+          <v-btn outlined fab small router to="/"><img src="img/icons/android-32x32.png"></v-btn>
         </v-col>
         <v-col cols="3">
-          <v-btn outlined router to="/flatten">Flatten</v-btn>
+          <v-btn small outlined router to="/flatten">Flatten</v-btn>
         </v-col>
         <v-col cols="3">
-          <v-btn outlined router to="/deadlines">Deadline</v-btn>
+          <v-btn small outlined router to="/deadlines">Deadline</v-btn>
         </v-col>
         <v-col cols="3">
-          <v-btn outlined router to="/actintime">Action</v-btn>
+          <v-btn small outlined router to="/actintime">Action</v-btn>
         </v-col>
       </v-row>
     </v-container>
@@ -119,6 +119,8 @@ body {
   color: $foreground !important;
   border: 1px solid $foreground;
   border-radius: 10px;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
 }
 
 .menuList.v-sheet.v-list {
