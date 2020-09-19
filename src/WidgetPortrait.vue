@@ -27,7 +27,7 @@
           </v-menu>
         </v-col>
 -->
-        <v-col cols="6">
+        <v-col>
           <v-btn outlined fab small router to="/"><img src="img/icons/android-32x32.png"></v-btn>
           <v-btn small outlined router to="/flatten">Lifeline</v-btn>
           <v-btn small outlined router to="/deadlines">Deadline</v-btn>
@@ -105,6 +105,7 @@ body {
   position: fixed;
   bottom: 0;
   height: 80px;
+  width:1000px;
   left: 0;
   right: 0;
 }
@@ -114,7 +115,7 @@ body {
   border: 1px solid $foreground;
   border-radius: 10px;
   padding: 0 0 0 0;
-  margin: 10px;
+  margin: 3px;
 }
 
 .menuList.v-sheet.v-list {
